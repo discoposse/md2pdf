@@ -40,11 +40,16 @@
     "source-map-explorer": "^2.5.2"
   },
   "scripts": {
+    "preinstall": "export NODE_OPTIONS=--openssl-legacy-provider",
     "analyze": "source-map-explorer 'build/static/js/*.js'",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "engines": {
+    "node": "16.x",
+    "npm": "7.x"
   },
   "browserslist": [
     ">0.2%",
