@@ -1,4 +1,6 @@
 *.rbc
+packet-lock.json
+yarn.lock
 .DS_Store
 capybara-*.html
 .rspec
