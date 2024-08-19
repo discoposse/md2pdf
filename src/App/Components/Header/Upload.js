@@ -43,7 +43,7 @@ export default props => {
       <span role="img" aria-label="upload">
         📁
       </span>
-      <span>Choose</span>
+      <span>Upload Markdown File</span>
     </p>
   );
 };
